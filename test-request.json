@@ -1,0 +1,45 @@
+{
+    "pickup": {
+        "id": "pickup_1",
+        "name": "Home",
+        "latitude": 51.5074,
+        "longitude": -0.1278
+    },
+    "viaPoints": [
+        {
+            "id": "school_1",
+            "name": "St. Mary's School",
+            "latitude": 51.5155,
+            "longitude": -0.1410
+        },
+        {
+            "id": "school_2",
+            "name": "Green Valley School",
+            "latitude": 51.5200,
+            "longitude": -0.1300
+        },
+        {
+            "id": "friend_house",
+            "name": "Friend's House",
+            "latitude": 51.5100,
+            "longitude": -0.1350
+        }
+    ],
+    "destination": {
+        "id": "destination_1",
+        "name": "Office",
+        "latitude": 51.5033,
+        "longitude": -0.1195
+    },
+    "pickupTime": "2025-01-28T08:00:00Z",
+    "timeWindows": {
+        "school_1": {
+            "earliest": "2025-01-28T08:15:00Z",
+            "latest": "2025-01-28T08:30:00Z"
+        },
+        "school_2": {
+            "earliest": "2025-01-28T08:20:00Z",
+            "latest": "2025-01-28T08:35:00Z"
+        }
+    }
+}
